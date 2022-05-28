@@ -1,0 +1,14 @@
+.menu {
+	font-size: 18px;
+
+	&__link { // & = .menu
+		color: #6a6a6a;
+		text-decoration: none;
+		margin-left: 50px;
+
+		&_active {
+			// & = .menu_link
+			color: $font_color_menu_active;
+		}
+	}
+}

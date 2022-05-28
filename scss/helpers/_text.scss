@@ -1,0 +1,53 @@
+.text-center {
+	text-align: center;
+}
+
+.text-blue {
+	color: $Navy_blue;
+}
+
+.text-white {
+	color: $white;
+}
+
+.text-decoration {
+	text-decoration: none;
+}
+
+.font-light {
+	font-weight: lighter;
+}
+
+.font-size-small0 {
+	font-size: $font_size_small0;
+}
+
+.font-size-small {
+	font-size: $font_size_small;
+	line-height: 1.5;
+}
+
+h1,
+.h1 {
+	font-size: $font_size_main_title_h1;
+}
+
+h2,
+.h2 {
+	font-size: $font_size_title_h2;
+}
+
+h3,
+.h3 {
+	font-size: $font_size_title_h3;
+}
+
+h4,
+.h4 {
+	font-size: $font_size_title_h4;
+}
+
+h5,
+.h5 {
+	font-size: $font_size_title_h5;
+}
