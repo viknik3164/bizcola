@@ -3,44 +3,27 @@
 	display: inline-block;
 	text-decoration: none;
 	border-radius: 40px;
-	background: linear-gradient(to right, #003b61, #0e0058);
-	color: white;
-	padding: 22px 48px;
-	text-align: center;
+	border: none;
+	width: 185px;
+	height: 55px;
+	margin-right: 20px;
+}
+.button-border_radius0 {
+	background: none;
+	border-color: white;
+	border-style: solid;
+	border-radius: 40px;
+	width: 185px;
+	height: 55px;
+}
+.button-font-size {
+  font-size: 14px;
+}
 
-	&_icon {
-		// = .button_icon - modificator
-		padding: 3px 48px 3px 3px;
-	}
+// Classes in BEM style
 
-	&_white {
-		// = .button_white
-		background: white;
-		color: $Navy_blue;
-	}
-
-	&_subscribe {
-		// = .button_subscripte
-
-	}
-
-	&_transparent {
-		background: none;
-		border-color: white;
-		border-style: solid;
-		padding: 18px 58px;
-	}
-
-	&_border {
-		border: none;
-		border-radius: 0;
-	}
-		&_border0 {
-			border: none;
-		}
-
-	&__icon {
-		// .button__icon - element of the block
-		margin-right: 20px;
-	}
+.button {
+	// default styles for button
+	&_rounded {} // .button_rounded - modificator to make button rounded
+	&_white {}
 }
