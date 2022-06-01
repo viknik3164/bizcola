@@ -13,7 +13,12 @@
 .text-decoration {
 	text-decoration: none;
 }
-
+.text-transparent {
+	opacity: 0.5;
+	-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 .font-light {
 	font-weight: lighter;
 }
@@ -24,7 +29,6 @@
 
 .font-size-small {
 	font-size: $font_size_small;
-	
 }
 
 h1,

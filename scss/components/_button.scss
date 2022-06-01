@@ -1,23 +1,30 @@
-.button-border {
-	border: none;
-	width: 185px;
-	height: 55px;
-}
-.button-border_radius {
+.button {
+	text-decoration: none;
 	border-radius: 40px;
-	border: none;
-	width: 185px;
-	height: 55px;
-	margin-right: 20px;
+	background: linear-gradient(to right, #003b61, #0e0058);
+	color: white;
+	padding: 22px 48px;
+	text-align: center;
 }
-.button-border_radius0 {
+
+// Класс модификатор(в файле пишется ниже для отмены свойств основного класса)
+.button_subscribe {
+	
+}
+
+.button_white {
+	background: white;
+	color: $Navy_blue;
+}
+
+.button_transparent {
 	background: none;
 	border-color: white;
 	border-style: solid;
-	border-radius: 40px;
-	width: 185px;
-	height: 55px;
+	padding: 18px 58px;
 }
-.button-font-size {
-  font-size: 14px;
+
+.button_border {
+	border: none;
+	border-radius: 0;
 }
