@@ -1,30 +1,46 @@
 .button {
+	// block
+	display: inline-block;
 	text-decoration: none;
 	border-radius: 40px;
 	background: linear-gradient(to right, #003b61, #0e0058);
 	color: white;
 	padding: 22px 48px;
 	text-align: center;
-}
 
-// Класс модификатор(в файле пишется ниже для отмены свойств основного класса)
-.button_subscribe {
-	
-}
+	&_icon {
+		// = .button_icon - modificator
+		padding: 3px 48px 3px 3px;
+	}
 
-.button_white {
-	background: white;
-	color: $Navy_blue;
-}
+	&_white {
+		// = .button_white
+		background: white;
+		color: $Navy_blue;
+	}
 
-.button_transparent {
-	background: none;
-	border-color: white;
-	border-style: solid;
-	padding: 18px 58px;
-}
+	&_subscribe {
+		// = .button_subscripte
 
-.button_border {
-	border: none;
-	border-radius: 0;
+	}
+
+	&_transparent {
+		background: none;
+		border-color: white;
+		border-style: solid;
+		padding: 18px 58px;
+	}
+
+	&_border {
+		border: none;
+		border-radius: 0;
+	}
+		&_border0 {
+			border: none;
+		}
+
+	&__icon {
+		// .button__icon - element of the block
+		margin-right: 20px;
+	}
 }

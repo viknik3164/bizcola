@@ -1,10 +1,21 @@
-.form {
-	
-}
+.form {}
+
 .form-input {
 	padding: 20px 15px;
 	width: 570px;
 }
+
 .form-input_textarea {
 	height: 170px;
+}
+
+.form-input_email {
+	background: white;
+	max-width: 800px;
+	margin: auto;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px 2px 2px 20px;
 }
