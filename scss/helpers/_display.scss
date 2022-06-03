@@ -1,12 +1,20 @@
 .display-inline-block {
 	display: inline-block;
 }
-
+.display-inline {
+	display: inline;
+}
 .display-flex {
 	display: flex;
 }
+.justify-center {
+	justify-content: center;
+}
 .justify-evenly {
 	justify-content: space-evenly;
+}
+.justify-around {
+	justify-content: space-around;
 }
 .justify-between {
 	justify-content: space-between;
@@ -18,11 +26,17 @@
 .align-center {
 	align-items: center;
 }
-
+.flex_wrap {
+	flex-wrap: wrap;
+}
 .flex-direction {
 	flex-direction: column;
 }
-
-.display-inline {
-	display: inline;
+.position-relative {
+	position: relative;
+	top: -30px;
+}
+.position-relative0 {
+	position: relative;
+	top: -50px;
 }
