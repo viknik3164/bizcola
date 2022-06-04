@@ -2,13 +2,25 @@
 	background: -webkit-gradient(linear, left top, right top, from(#003b61), to(#0e0058));
 	background: linear-gradient(to right, #003b61, #0e0058);
 }
+
+.opacity-0 {
+	opacity: 0;
+}
+
 .bg-social {
-  background-color: #a0a0a0;
+	background-color: #a0a0a0;
 	width: 50px;
 	height: 46px;
 }
+
 .bg-social-blue {
 	background-color: #003b61;
 	width: 50px;
-		height: 46px;
+	height: 46px;
+}
+
+.bg-social-blue0 {
+	background-color: #003b61;
+	width: 30px;
+	height: 30px;
 }

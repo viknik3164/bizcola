@@ -1,0 +1,17 @@
+.testimonial-slideshow {
+	&__nav {
+		position: absolute;
+		bottom: 40px;
+		right: 80px;
+	}
+
+	&__nav-button {}
+
+	&__slide {
+		display: none;
+
+		&_visible {
+			display: block;
+		}
+	}
+}
