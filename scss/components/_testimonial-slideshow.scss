@@ -5,7 +5,15 @@
 		right: 80px;
 	}
 
-	&__nav-button {}
+	&__nav-button {
+		outline: none;
+		border: none;
+		cursor: pointer;
+		transition: .3s ease-out;
+		&:hover {
+			background-color: $blue;
+		}
+	}
 
 	&__slide {
 		display: none;

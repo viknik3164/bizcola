@@ -19,3 +19,12 @@
 	justify-content: space-between;
 	padding: 2px 2px 2px 20px;
 }
+.from-input-subscribe {
+	border: 0;
+	width: 100%;
+	outline: none;
+}
+
+.from-input-subscribe:focus .form-input_email {
+	outline: 1px solid blue;
+}

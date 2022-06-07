@@ -5,8 +5,8 @@
 		color: #6a6a6a;
 		text-decoration: none;
 		margin-left: 50px;
-
-		&_active {
+		transition: .3s ease-in;
+		&:hover, &_active {
 			// & = .menu_link
 			color: $font_color_menu_active;
 		}

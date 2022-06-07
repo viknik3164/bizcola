@@ -1,29 +1,45 @@
+// Classes in BEM style
 .button {
-	// block
 	display: inline-block;
 	text-decoration: none;
-	border-radius: 40px;
+	border-radius: 100px;
+	padding: 13px 40px;
+	text-align: center;
+	font-weight: 600;
 	border: none;
-	width: 185px;
-	height: 55px;
-	margin-right: 20px;
-}
-.button-border_radius0 {
-	background: none;
-	border-color: white;
-	border-style: solid;
-	border-radius: 40px;
-	width: 185px;
-	height: 55px;
-}
-.button-font-size {
-  font-size: 14px;
-}
-
-// Classes in BEM style
-
-.button {
+	outline: 0;
+	transition: .3s ease-in;
 	// default styles for button
-	&_rounded {} // .button_rounded - modificator to make button rounded
-	&_white {}
+	&_squared {
+		border-radius: 0;
+	}
+	&_white {
+		background-color: $white;
+		color: $Navy_blue;
+		border-color: $white;
+		&:hover {
+			color: $blue;
+		}
+	}
+	&_outlined {
+		background-color: transparent;
+		border-width: 2px;
+		border-style: solid;
+		border-color: $white;
+		color: $white;
+		&:hover {
+			background-color: $white;
+			color: $Navy_blue;
+		}
+	}
+	&_blue-gradient {
+		color: $white;
+		background: linear-gradient(to right, #003b61, #0e0058);
+	}
+	&_icon {
+		padding: 2px 40px 2px 2px;
+	}
+	&__icon {
+		margin-right: 20px;
+	}
 }
