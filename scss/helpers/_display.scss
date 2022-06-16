@@ -1,6 +1,9 @@
 .display-inline-block {
 	display: inline-block;
 }
+.display-block {
+	display: block;
+}
 .display-inline {
 	display: inline;
 }
@@ -31,6 +34,9 @@
 }
 .flex-direction {
 	flex-direction: column;
+}
+.flex-direction_row-reverse {
+	flex-direction: row-reverse;
 }
 .position-relative {
 	position: relative;

@@ -1,10 +1,19 @@
-.form {}
+.form {
+
+}
 
 .form-input {
 	padding: 20px 15px;
 	width: 570px;
 }
-
+.form-input280 {
+	padding: 20px 15px;
+	width: 280px;
+}
+.form-input10 {
+	max-height: 10px;
+	max-width: 10px;
+}
 .form-input_textarea {
 	height: 170px;
 }
