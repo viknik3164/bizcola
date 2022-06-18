@@ -9,36 +9,52 @@
 	border: none;
 	outline: 0;
 	transition: .3s ease-in;
-	// default styles for button
+
 	&_squared {
 		border-radius: 0;
 	}
+
+	&_rounded {
+		border-radius: 4px;
+	}
+
 	&_white {
 		background-color: $white;
 		color: $Navy_blue;
 		border-color: $white;
+
 		&:hover {
 			color: $blue;
 		}
 	}
+
 	&_outlined {
 		background-color: transparent;
 		border-width: 2px;
 		border-style: solid;
 		border-color: $white;
 		color: $white;
+
 		&:hover {
 			background-color: $white;
 			color: $Navy_blue;
 		}
 	}
+
 	&_blue-gradient {
 		color: $white;
 		background: linear-gradient(to right, #003b61, #0e0058);
 	}
+
+	&_grey {
+		color: $black;
+		background: $grey;
+	}
+
 	&_icon {
 		padding: 2px 40px 2px 2px;
 	}
+
 	&__icon {
 		margin-right: 20px;
 	}
