@@ -32,7 +32,7 @@
 .flex_wrap {
 	flex-wrap: wrap;
 }
-.flex-direction {
+.flex-direction_column {
 	flex-direction: column;
 }
 .flex-direction_row-reverse {
@@ -41,11 +41,11 @@
 .position-relative {
 	position: relative;
 }
-.position-relative0 {
+.position-relative-30 {
 	position: relative;
 	top: -30px;
 }
-.position-relative1 {
+.position-relative-50 {
 	position: relative;
 	top: -50px;
 }
@@ -59,14 +59,14 @@
 
 .col-12 {
 	flex: 1 0 100%;
-	max-width: 100%;
+	max-width: 80%;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 .col-6 {
 	flex: 1 0 50%;
-	max-width: 50%;
+	max-width: 40%;
 	padding-left: 15px;
 	padding-right: 15px;
 }
