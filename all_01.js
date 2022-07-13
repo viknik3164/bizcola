@@ -105,9 +105,10 @@
 // } else {
 //   message = "";
 // } // оналогичный код
-// let message = login == "Сотрудник" ? "Привет" : 
-//     login == "Директор" ? "Здравствуйте" : 
-// 		login == "" ? "Нет логина" : 
+// let message = (login=="Сотрудник") ? "Привет"
+// : (login=="Директор") ? "Здравствуйте"
+// : (login=="") ? "Нет логина"
+// : "";
 
 // Логические операторы:
 // let userName = prompt("Кто там?", "");
@@ -125,3 +126,114 @@
 // } else {
 //   alert("Я вас не знаю");
 // }
+
+// let value = prompt(`Введите число`, "");
+// if (value > 0) {
+//   alert("not");
+// } else if (value < 0) {
+//   alert("not");
+// } else {
+//   alert("yes");
+// } // одно и тоже
+// let value = prompt(`Введите число`, "");
+// value > 0 ?
+// alert("not")
+// : value < 0 ?
+// alert("not")
+// : alert("yes");
+
+// let result;
+// if (a + b < 4) {
+//   result = "yes";
+// } else {
+//   result = "no";
+// } // одно и тоже
+// result = a + b < 4 ? "yes" : "no";
+
+// let login = prompt(`Login?`, "");
+// let pass;
+// if (login == "admin") {
+//   pass = prompt("pass?");
+// } else if (login == "") {
+//   pass = prompt("stop! login?");
+//   alert(pass);
+// }
+// if (pass == "BOSS") {
+//   alert("Yoo!!!");
+// } else if (pass != "BOSS") {
+//   alert(prompt("STOP!!! pass?"));
+// } else {
+//   alert("#");
+// }
+// Цыклы
+// for (let i = 0; i < 3; i++) {
+//   alert(i);
+// }
+// alert(i);
+// let i = 0;
+// // Если условие == true → Выполнить тело, Выполнить шаг
+// if (i < 3) { alert(i); i++ }
+// // Если условие == true → Выполнить тело, Выполнить шаг
+// if (i < 3) { alert(i); i++ }
+// // Если условие == true → Выполнить тело, Выполнить шаг
+// if (i < 3) { alert(i); i++ }
+// // ...конец, потому что теперь i == 3
+// let i = 0; // переменная "i" объявлена до цыкла
+// for (i = 0; i < 3; i++) {
+//   alert(i);
+// }
+// alert(i);
+// let i = 0; // тоже самое
+// for (; i < 3; ) {
+//   alert(i++);
+// }
+// alert(i);
+
+// for (let i = 0; i < 10; i++) {
+//   if (i % 2) {
+//     alert(i);
+//   }
+// } // тоже самое
+// for (let i = 0; i < 10; i++) {
+//   // если true, пропустить оставшуюся часть тела цикла
+//   if (i % 2 == 0) continue;
+//   alert(i); // 1, затем 3, 5, 7, 9
+// }
+
+// for (let i = 0; i < 5; i++) alert(i);
+// тоже самое
+// for (let i = 0; i < 5; ++i) alert(i);
+
+// for (let i = 2; i <= 10; ++i) {
+//   if (i % 2 == 0) {
+//     alert(i);
+//   }
+// } // тоже самое для чётных чисел
+// for (let i = 2; i <= 10; i++) {
+//   if (i % 2 == 0) {
+//     alert(i);
+//   }
+// }
+
+// for (let i = 0; i < 3; i++) {
+//   alert("number " + i + " !");
+// } // тоже самое для "for" и "while"
+// let i = 0;
+// while (i < 3) {
+//   alert("number " + i + " !");
+//   i++;
+// }
+
+// let num;
+// do {
+//   num = prompt("Число больше 100", 0);
+// } while (num <= 100 && num);
+
+// let n = 10;
+// nextPrime: for (let i = 2; i <= n; i++) {
+//   for (let j = 2; j < i; j++) {
+//     if (i % j == 0) continue nextPrime;
+//   }
+//   alert(i);
+// }
+
